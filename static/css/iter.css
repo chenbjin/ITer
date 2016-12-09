@@ -1,0 +1,50 @@
+/*------------------------- Fonts ------------------------*/
+@font-face {
+	font-family: 'anticregular';
+	src: url('../fonts/glyphicons-halflings-regular.eot');
+	src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/glyphicons-halflings-regular.woff') format('woff'),  url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),  url('../fonts/glyphicons-halflings-regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*------------------------- Layout styles ------------------------*/
+body {
+	margin-top: 10px;
+	margin-left: 15%;
+	margin-right: 15%;
+	/*background:url(../images/bg-body.jpg);*/
+	font-size:15px;
+}
+/*------------------------- Header ------------------------*/
+#header 
+{
+}
+#header div.content
+{
+	width: 100%;
+}
+#header div.content ul.nav
+{
+	margin: 23px auto;
+	margin-left: 30px;
+}
+#header div ul.nav>li>a
+{
+	/*color: white;*/
+	color: #478fab;
+	font-size: 15px;
+	background: none;
+}
+
+#header div.content ul.nav>li>a.selected
+{
+	color: #1b45ac;
+}
+#header div ul.nav>li>a:hover
+{
+	color: #aaaaf9;
+}
+#body{
+	padding-top: 70px;
+	padding-bottom: 40px;
+	background-color: #FFFFFF
+}
